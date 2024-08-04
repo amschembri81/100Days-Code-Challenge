@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import DayInfoComponent from "../DayInfoComponent";
-import '../../App.css';
+import '../Challenges.css';
 
 function Day11() {
   const element = <h1>Hello, everyone! {"\u{1F44B}"}</h1>;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import DayInfoComponent from '../DayInfoComponent';
-import '../../App.css';
+import '../Challenges.css';
 
 class Day11 extends Component {
   constructor(props) {

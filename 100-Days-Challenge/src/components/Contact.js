@@ -7,7 +7,7 @@ function Contact() {
       <h1 className="spaced-heading">Contact Page</h1>
       <div className="contact-details">
         <img src="/Me.png" alt="Amanda Schembri" className="profile-image" />
-        <p>Let's connect!</p>
+        <h3>Let's connect!</h3>
         <p>
           <a href="https://www.linkedin.com/in/amschembri/" target="_blank" rel="noopener noreferrer" className="contact-button">
             LinkedIn

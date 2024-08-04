@@ -1,87 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
 
 body {
-  margin: 0;
-  font-family: 'Nunito', sans-serif;
-}
-
-.App {
-  background: linear-gradient(to right, #9d50bb, #6699ff);
-  min-height: 100vh;
-  padding: 20px;
-}
-
-.Home {
-  text-align: center;
-  padding: 20px;
-  background-color: #F0F0F0;
-  min-height: 100vh; 
   display: flex;
-  flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
-}
-
-.intro {
-  max-width: 800px;
-}
-
-.homebutton {
-  padding: 12px 28px;
-  font-size: 1.2em;
-  font-weight: bold;
-  border: none;
-  border-radius: 8px;
-  background-color: purple;
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
-  margin-top: 50px;
-  transition: background-color 0.3s;
-  max-width: 100px;
-}
-
-.homebutton:hover {
-  background-color: #7b68ee;
-}
-
-.external-link {
-  display: block;
-  margin-top: 5px;
-  font-size: 1.2em;
-  color: purple;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.external-link:hover {
-  color: #7b68ee;
-}
-
-.Challenges {
-  margin: 40px;
-}
-
-.spaced-heading {
-  margin-top: 50px; 
-  margin-bottom: 50px; 
-}
-
-.aboutheading {
-  text-align: left;
-  margin: 20px 0;
+  background-color: azure;
 }
 
 .about-container {
-  background-color: #ffffff;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 40 auto;
+  font-family: 'Poppins', sans-serif;
 }
 
-.aboutme {
-  text-align: left;
-  margin: 20px 0;
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: lavender;
+  width: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: purple;
+}
+
+h2 {
+  margin-top: 40px;
+  color: purple;
+}
+
+h3 {
+  color: #777;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  margin: 0 10px;
 }
 
 .button {
@@ -93,207 +69,72 @@ body {
   background-color: purple;
   color: white;
   cursor: pointer;
-  text-decoration: none;
-  margin-top: 20px;
+  border: 0.5px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   transition: background-color 0.3s;
-  margin: 5px;
+  margin: 10px;
 }
 
 .button:hover {
-  background-color: #7b68ee;
+  background-color: limegreen;
 }
 
-.toggle-unit-button:hover {
-  background-color: #ffcc00;
-}
-
-.bullet-list2 {
-  list-style-type: disc;
-  padding-left: 20px;
-  margin: 0px;
-}
-
-.list-item {
-  margin-bottom: 10px;
-}
-
-.day-container {
-  padding: 20px;
-}
-
-.form-container {
-  margin-top: 20px;
-}
-
-.input-form {
+.goals-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 5px auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  max-width: 600px;
 }
 
-.form-group {
-  margin-bottom: 15px;
-}
-
-.input-field {
-  margin-left: 10px;
+.goals-list li {
+  font-family: Helvetica;
   padding: 5px;
-  font-size: 16px;
-  width: 300px;
+  margin: 5px;
+  display: list-item;
+  list-style-position: inside;
 }
 
-.submit-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  background-color: purple;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.submit-button:hover {
-  background-color: orange;
-}
-
-.submitted-data {
-  margin-top: 20px;
+.goals-container {
+  margin: 0 auto;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
   background-color: #f9f9f9;
 }
 
-ul {
-  list-style-type: disc;
-  padding-left: 20px;
-  margin: 0;
-}
-
-ul li {
-  margin-bottom: 10px;
-  display: list-item; 
-}
-
-.bullet-list {
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
-.bullet-list li {
-  margin-bottom: 10px;
-}
-
-.no-bullets {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.specialization-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.specialization-list {
-  list-style-type: none; 
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.specialization-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 150px; 
-  width: 300px; 
-  border: 1px solid #ddd;
-  border-radius: 5px;
+.learned-container {
+  margin: 0 auto;
   padding: 10px;
-  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  background-color: #f9f9f9;
 }
 
-.specialization-item strong {
-  display: block;
-  margin-bottom: 10px;
-}
-
-.skills-list {
+.learned-list {
+  font-family: Helvetica;
+  list-style-type: disc;
+  padding: 0;
+  margin: 5px auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-content: center;
   gap: 10px;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+  max-width: 600px;
 }
 
-.skills-list li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 10px;
-  background-color: #fff;
-}
-
-.code-snippets {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-}
-
-.code-snippets h3,
-.code-snippets p,
-.code-snippets pre {
-  text-align: center; 
-}
-
-.code-snippets pre {
-  background-color: #f4f4f4;
-  padding: 5px;
-  border-radius: 5px;
-  max-width: 300px;
-  width: 100%;
-}
-
-hr {
-  border: 0;
-  height: 1px;
-  background: #ccc;
-  margin: 10px 0;
-  width: 100%; 
-}
-
-.languages-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.language-card {
-  background-color: #f4f4f4;
-  padding: 20px;
-  border-radius: 10px;
-  width: 200px;
-  text-align: center;
-  transition: transform 0.3s, background-color 0.3s;
-}
-
-.language-card h3 {
-  margin: 10px 0 5px;
-}
-
-.language-card p {
+.learned-list li {
+  font-family: Helvetica;
+  font-style: italic;
   margin: 5px 0;
+  list-style-position: inside;
+}
+
+.programheader {
+  margin-top: 20px;
 }

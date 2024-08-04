@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import DayInfoComponent from '../DayInfoComponent';
-import '../../App.css';
+import '../Challenges.css';
 
 function Day13() {
   const element = <h1>Hello, everyone! {"\u{1F44B}"}</h1>;
@@ -44,9 +44,6 @@ function Day13() {
   return (
     <div className="day-container">
       <h1>Day 13 - Styling in React</h1>
-      <ul className="bullet-list">
-        <li>Apply styles to React components</li>
-      </ul>
       {element}
       {showDayInfo && (
         <DayInfoComponent
@@ -70,7 +67,7 @@ function Day13() {
       <button className="button" onClick={fetchWeather}>
         Fetch Weather
       </button>
-      <h2>Programming Languages:</h2>
+      <h2 className="programheader">Programming Languages:</h2>
       <ProgrammingLanguages />
     </div>
   );

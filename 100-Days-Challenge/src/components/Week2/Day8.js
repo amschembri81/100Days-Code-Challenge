@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import DayInfoComponent from "../DayInfoComponent";
-import '../../App.css';
+import '../Challenges.css';
 
 function Day8() {
   const element = <h1>Hello, everyone! {"\u{1F44B}"}</h1>;
@@ -76,7 +76,7 @@ function Day8() {
       <button className="button" onClick={fetchWeather}>
         Fetch Weather
       </button>
-      <div className="content-container">
+      <div className="content-container2">
         <h2>My Favorite Books:</h2>
         <ul className="bullet-list2">
           {favoriteBooks.map((book, index) => (

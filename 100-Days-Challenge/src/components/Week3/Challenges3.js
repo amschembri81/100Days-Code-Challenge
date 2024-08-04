@@ -15,38 +15,52 @@ function Challenges3() {
         <strong>100 Days of Code - Challenges Days 15 - 21</strong>
       </h1>
 
+      <div className="week-container">
+        <h2>This week I am working on:</h2>
+        <ul className="bullet-list2">
+          <li className="list-item">
+            Class Components: Understand class components and their lifecycle
+          </li>
+          <li className="list-item">Event Propagation: Understand event propagation in React</li>
+          <li className="list-item">Handling Forms: Validate and handle form submissions</li>
+          <li className="list-item">
+            React Hooks (useState): Replace class component state with useState
+            hook
+          </li>
+          <li className="list-item">React Hooks (useEffect): Use useEffect hook for side effects</li>
+          <li className="list-item">Context API: Implement a simple context provider and consumer</li>
+          <li className="list-item">
+            Higher-Order Components (HOC): Create and use a higher-order
+            component
+          </li>
+        </ul>
+      </div>
+
       <div className="challenge">
-        <h2>Day 15</h2>
         <Day15 />
       </div>
 
       <div className="challenge">
-        <h2>Day 16</h2>
         <Day16 />
       </div>
 
       <div className="challenge">
-        <h2>Day 17</h2>
         <Day17 />
       </div>
 
       <div className="challenge">
-        <h2>Day 18</h2>
         <Day18 />
       </div>
 
       <div className="challenge">
-        <h2>Day 19</h2>
         <Day19 />
       </div>
 
       <div className="challenge">
-        <h2>Day 20</h2>
         <Day20 />
       </div>
 
       <div className="challenge">
-        <h2>Day 21</h2>
         <Day21 />
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import '../../App.css';
+import '../Challenges.css';
 
 function Day2() {
   const [count, setCount] = useState(0);

@@ -5,7 +5,7 @@ import DayInfoComponent from '../DayInfoComponent';
 import Home from '../Home';
 import About from '../About';
 import Contact from '../Contact';
-import '../../App.css';
+import '../Challenges.css';
 
 function Day14() {
   const element = <h1>Hello, everyone! {"\u{1F44B}"}</h1>;
@@ -59,13 +59,10 @@ function Day14() {
   return (
     <div className="day-container">
       <h1>Day 14 - React Router Basics</h1>
-      <ul className="bullet-list2">
-        <li>Set up and use React Router for navigation</li>
-      </ul>
       {element}
       {showDayInfo && (
         <DayInfoComponent
-          date="August 4, 2024"
+          date="August 5, 2024"
           dayNumber="Day 14"
           challenge="Set up and use React Router for navigation"
           message={messages[messageIndex]}
@@ -99,7 +96,7 @@ function Day14() {
             </li>
           </ul>
         </nav>
-        <Routes>
+        <Routes className="routes">
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import '../../App.css';
+import '../Challenges.css';
 import DayInfoComponent from "../DayInfoComponent";
 import JokeGenerator from "../JokeGenerator";
 

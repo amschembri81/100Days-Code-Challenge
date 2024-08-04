@@ -1,5 +1,5 @@
 import React from "react";
-import '../../App.css';
+import '../Challenges.css';
 
 function Day1() {
   const checkmarkEmoji = "\u2714"; // ✔
