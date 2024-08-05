@@ -7,19 +7,8 @@ import '../Challenges.css';
 function Day15() {
   const element = <h1>Hello, everyone! {"\u{1F44B}"}</h1>;
 
-  const codingEmoji = '\u{1F4BB}'; // 💻
-  const coffeeEmoji = '\u{2615}'; // ☕
   const happyEmoji = '\u{1F60A}'; // 😊
 
-  const messages = [
-    "Let's code!",
-    "Keep going, you're doing great!",
-    "Don't give up!",
-    "You're making progress!",
-    "Stay focused and keep coding!",
-  ];
-
-  const [messageIndex, setMessageIndex] = useState(0);
   const [weather, setWeather] = useState('');
   const [showLifecycleDemo, setShowLifecycleDemo] = useState(false);
 
@@ -45,10 +34,7 @@ function Day15() {
       <DayInfoComponent
         date="August 6, 2024"
         dayNumber="Day 15"
-        challenge="Understand class components and their lifecycle"
-        message={messages[messageIndex]}
-        codingEmoji={codingEmoji}
-        coffeeEmoji={coffeeEmoji}
+        challenge="Understand class components and their lifecycle."
         happyEmoji={happyEmoji}
         weather={weather}
       />

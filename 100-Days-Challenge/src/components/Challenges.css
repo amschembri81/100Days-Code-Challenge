@@ -69,7 +69,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-
 .spaced-heading {
   margin-top: 50px; 
   margin-bottom: 50px; 
@@ -112,6 +111,7 @@ body {
 
 .day-container {
   padding: 20px;
+  align-items: center;
 }
 
 .form-container {
@@ -182,10 +182,6 @@ ul li {
 }
 
 .bullet-list li {
-  margin-bottom: 10px;
-}
-
-.list-item {
   margin-bottom: 10px;
 }
 
@@ -282,26 +278,26 @@ hr {
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
-}
-
-.language-card {
+  }
+  
+  .language-card {
   background-color: #f4f4f4;
   padding: 20px;
   border-radius: 10px;
   width: 200px;
   text-align: center;
   transition: transform 0.3s, background-color 0.3s;
-}
-
-.language-card h3 {
+  }
+  
+  .language-card h3 {
   margin: 10px 0 5px;
-}
-
-.language-card p {
+  }
+  
+  .language-card p {
   margin: 5px 0;
-}
-
-.week-container {
+  }
+  
+  .week-container {
   padding: 10px 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -309,10 +305,10 @@ hr {
   background-color: #f9f9f9;
   margin: 20px 0;
   max-width: 800px;
-  margin: 20px auto; 
-}
-
-.button2 {
+  margin: 20px auto;
+  }
+  
+  .button2 {
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
@@ -323,13 +319,13 @@ hr {
   cursor: pointer;
   transition: background-color 0.3s;
   margin-right: 20px;
-}
-
-.button2:hover {
+  }
+  
+  .button2:hover {
   background-color: #ffcc00;
-}
-
-.lifecyclebutton {
+  }
+  
+  .lifecyclebutton {
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
@@ -339,12 +335,100 @@ hr {
   color: white;
   cursor: pointer;
   transition: background-color 0.3s;
-}
-
-.lifecyclebutton:hover {
+  }
+  
+  .lifecyclebutton:hover {
   background-color: orange;
-}
-
-.lifecycle {
+  }
+  
+  .lifecycle {
   margin-top: 30px;
-}
+  }
+  
+  .button {
+  background-color: darkblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+  background-color: #45a049;
+  }
+  
+  .parent {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    background-color: lightblue;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .child {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+    background-color: lightgreen;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .parent:hover {
+    background-color: lightpink;
+  }
+  
+  .child:hover {
+    background-color: lightgoldenrodyellow;
+  }
+  
+  .input-form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-field {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  .submit-button2 {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button2:hover {
+    background-color: orangered;
+  }
+  
+  .form-message {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }

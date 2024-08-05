@@ -6,24 +6,12 @@ import '../Challenges.css';
 function Day17() {
   const element = <h1>Hello, everyone! {"\u{1F44B}"}</h1>;
 
-  const codingEmoji = "\u{1F4BB}"; // 💻
-  const coffeeEmoji = "\u{2615}"; // ☕
   const happyEmoji = "\u{1F60A}"; // 😊
 
-  const messages = [
-    "Let's code!",
-    "Keep going, you're doing great!",
-    "Don't give up!",
-    "You're making progress!",
-    "Stay focused and keep coding!",
-  ];
-
-  const [messageIndex, setMessageIndex] = useState(0);
   const [weather, setWeather] = useState("");
-
-  const updateMessage = () => {
-    setMessageIndex((prevIndex) => (prevIndex + 1) % messages.length);
-  };
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [formMessage, setFormMessage] = useState("");
 
   const fetchWeather = async () => {
     const apiKey = "81079bc3172b71333817eb0e8ca71bf5";
@@ -39,26 +27,57 @@ function Day17() {
     }
   };
 
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    if (name === "" || email === "") {
+      setFormMessage("Please fill out all fields. \u{1F641}"); // 😡
+    } else if (!/\S+@\S+\.\S+/.test(email)) {
+      setFormMessage("Please enter a valid email. \u{1F615}"); // 😟
+    } else {
+      setFormMessage(`Form submitted successfully! Thank you, ${name}. \u{1F389}`); // 🎉
+    }
+  };
+
   return (
     <div className="day-container">
-      <h1>Day 17 - Title Here</h1>
+      <h1>Day 17 - Handling Forms</h1>
       {element}
       <DayInfoComponent
-        date="Date Here"
+        date="August 8, 2024"
         dayNumber="Day 17"
-        challenge="Challenge description here."
-        message={messages[messageIndex]}
-        codingEmoji={codingEmoji}
-        coffeeEmoji={coffeeEmoji}
+        challenge="Validate and handle form submissions."
         happyEmoji={happyEmoji}
         weather={weather}
       />
-      <button className="button" onClick={updateMessage}>
-        Update Message
-      </button>
       <button className="button" onClick={fetchWeather}>
         Fetch Weather
       </button>
+      <form className="input-form" onSubmit={handleFormSubmit}>
+        <div className="form-group">
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            className="input-field"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            className="input-field"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </div>
+        <button type="submit" className="submit-button2">
+          Submit
+        </button>
+      </form>
+      {formMessage && <div className="form-message">{formMessage}</div>}
     </div>
   );
 }
