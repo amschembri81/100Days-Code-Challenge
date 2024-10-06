@@ -1,0 +1,120 @@
+.zip-code-container {
+  text-align: center;
+  margin-top: 20px;
+  flex: 1;
+}
+
+.input-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Space between input and button */
+}
+
+.zipcode {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  flex-grow: 1;
+}
+
+.weatherbutton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #033e05;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weatherbutton:hover,
+.button:hover {
+  background-color: #45a049;
+}
+
+.joke-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #c2e0fa;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.search-history-list,
+.location-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.search-history-list li,
+.location-links li {
+  margin-bottom: 5px;
+}
+
+.location-links li {
+  margin: 10px 0;
+}
+
+.weather-details {
+  margin-top: 20px;
+  border-radius: 8px;
+  height: 150px;
+  max-width: 600px;
+}
+
+.joke-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.joke-button:hover {
+  background-color: palegoldenrod;
+  color: black;
+}
+
+/* Additions for Day 41's weather comparison */
+.weather-comparison-container {
+  background-color: #93CCEA; /* Light blue background */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for effect */
+  max-width: 800px; /* Center the container with max-width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.zip-code-pair {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.comparison-result {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: lightcoral; /* Lighter turquoise for contrast */
+  border-radius: 5px;
+  text-align: center;
+}
+
+.explanation {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333; /* Ensure readable color */
+}

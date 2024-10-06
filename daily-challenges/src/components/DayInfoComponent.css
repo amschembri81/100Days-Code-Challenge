@@ -1,0 +1,45 @@
+.day-info {
+  padding: 10px 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+/* Light Theme */
+.light-theme {
+  background-color: #f9f9f9;
+  color: #000;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Theme */
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #444;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.day-info h3 {
+  margin: 0;
+}
+
+.day-info p {
+  margin: 10px 0;
+}
+
+.happy-emoji {
+  margin-left: 5px;
+}
+
+.party-emoji {
+  margin-left: 5px;
+}
+
+.day-container {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

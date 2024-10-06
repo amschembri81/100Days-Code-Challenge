@@ -1,0 +1,337 @@
+/* Center headings and apply consistent styling */
+.Challenges {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .spaced-heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #4CAF50;
+  }
+  
+  .week-container {
+    margin-bottom: 40px;
+  }
+  
+  .list-item2 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .day-container {
+    margin-bottom: 40px;
+  }
+  
+  /* Add hover effects to make it interactive */
+  .day-container:hover {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+  }
+
+.storybook-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .storybook-preview {
+    margin: 20px 0;
+  }
+  
+  .storybook-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Primary Button Style */
+  .storybook-button.primary {
+    background: linear-gradient(45deg, #ff6f61, #ff9478);
+  }
+  
+  .storybook-button.primary:hover {
+    background: linear-gradient(45deg, #ff9478, #ff6f61);
+    transform: scale(1.05);
+  }
+  
+  /* Secondary Button Style */
+  .storybook-button.secondary {
+    background: linear-gradient(45deg, #6a5acd, #836fff);
+  }
+  
+  .storybook-button.secondary:hover {
+    background: linear-gradient(45deg, #836fff, #6a5acd);
+    transform: scale(1.05);
+  }
+  
+  /* Button Controls */
+  .storybook-controls button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f5f5f5;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .storybook-controls button:hover {
+    background-color: #ddd;
+    transform: translateY(-3px);
+  }
+
+.snapshot-container {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .snapshot-button {
+    padding: 12px 25px;
+    margin: 10px 15px; /* Add space between the buttons */
+    font-size: 16px;
+    background-color: #6a1b9a; /* Eggplant color */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .snapshot-button:hover {
+    background-color: #8e24aa; /* Light purple on hover */
+  }
+  
+  .snapshot-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 22px;
+    color: #2e4057;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #4f5b66;
+    line-height: 1.5;
+  }
+  
+  .fallback-container {
+    background-color: #ffeb3b;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .fallback-container h3 {
+    color: #d32f2f;
+    font-weight: bold;
+  }
+  
+  .fallback-container p {
+    font-size: 14px;
+  }
+  
+  .enhancement-container {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border: 1px solid #90caf9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1565c0;
+  }
+  
+  button:active {
+    background-color: #0d47a1;
+  }
+  
+  /* Description section */
+  .description {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2e4057;
+  }
+  
+  .high-contrast {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .a11y-button {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .a11y-button:hover {
+    background-color: #005f99;
+  }
+  
+  .screen-reader {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  /* General container styling */
+.day-container2 {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* High contrast mode styling with higher specificity */
+  .day-container2.high-contrast {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-color: #fff !important;
+  }
+  
+  /* Button styling */
+  .a11y-button {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .a11y-button:hover {
+    background-color: #005f99;
+  }
+  
+  /* Screen reader text */
+  .screen-reader {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  .ssr-visualizer {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #007acc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .ssr-box, .csr-box {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .toggle-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .toggle-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #007acc;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button.active {
+    background-color: #005f99;
+  }
+  
+  .toggle-button:hover {
+    background-color: #005f99;
+  }
+
+  .space-explorer {
+    margin: 20px 0;
+  }
+  
+  .space-explorer h3 {
+    margin-bottom: 10px;
+  }
+  
+  .redux-button {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .redux-button:hover {
+    background-color: #005f99;
+  }
+  
+  .image-container {
+    margin-top: 20px;
+  }
+  
+  .space-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }

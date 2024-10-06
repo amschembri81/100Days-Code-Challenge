@@ -1,0 +1,27 @@
+.Home {
+  text-align: center;
+  padding: 20px;
+  background-color: lavender;
+  font-family: 'Poppins';
+}
+
+.homebutton {
+  padding: 12px 28px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 50px;
+  transition: background-color 0.3s;
+  width: 300px; /* Adjust the width as needed */
+  display: inline-block;
+  text-align: center;
+}
+
+.homebutton:hover {
+  background-color: #7b68ee;
+}

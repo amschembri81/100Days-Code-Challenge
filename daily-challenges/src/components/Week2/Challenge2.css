@@ -1,0 +1,188 @@
+/* Challenge2.css */
+
+/* Container for each challenge day */
+.challenge-container {
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading for the 100 Days of Code section */
+.spaced-heading {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Poppins", sans-serif; /* Ensure Poppins is applied */
+  margin-bottom: 40px;
+}
+
+/* Buttons inside each day container */
+.day-container .button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.day-container .button:hover {
+  background-color: #0056b3;
+}
+
+ul.learned-list,
+ul.bullet-list2,
+ul.activity-log {
+  margin: 0 auto; /* Center the list horizontally */
+  padding: 0;
+  list-style-type: none; /* Remove default list styling */
+  text-align: center; /* Center text within the list */
+}
+
+ul.learned-list li,
+ul.bullet-list2 li,
+ul.activity-log li {
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #e0f7fa;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  max-width: 400px;
+  margin-left: auto; /* Ensure centering */
+  margin-right: auto; /* Ensure centering */
+}
+
+/* Styling for the Code Snippets Section */
+.code-snippets pre {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.code-snippets h3 {
+  margin-top: 20px;
+}
+
+/* Languages Section for Day 13 */
+.languages-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.language-card {
+  flex: 1 1 200px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.language-card h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.language-card p {
+  font-size: 1em;
+}
+
+.input {
+  margin: 8px;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.skills-container {
+  margin: 20px auto; /* 20px top margin, auto left and right to center horizontally */
+  padding: 10px;
+  background-color: #e0f7fa;
+  border-radius: 5px;
+  max-width: 500px;
+  text-align: center; /* Centers the content inside the container */
+}
+
+/* Centers the container horizontally and adds margin at the top */
+.additional-text-container {
+  margin: 20px auto; /* 20px top margin, auto left and right to center horizontally */
+  padding: 10px;
+  background-color: #ffebcd;
+  border-radius: 5px;
+  font-style: italic;
+  max-width: 500px;
+  text-align: center; /* Centers the content inside the container */
+}
+
+.additional-heading {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #6c757d;
+}
+
+.skill-item {
+  padding: 5px;
+  background-color: lightyellow;
+  border-radius: 5px;
+  margin: 5px auto; /* Centers the skill items horizontally */
+  max-width: 400px;
+}
+
+h2.skills-heading {
+  margin-bottom: 10px;
+}
+
+.header {
+  color: darkblue;
+  font-size: 26px;
+  margin-top: 15px;
+}
+
+nav ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes padding */
+  display: flex; /* Displays list items inline */
+  justify-content: center; /* Centers the links horizontally */
+}
+
+nav ul li {
+  margin: 0 20px; /* Adds spacing between the links */
+}
+
+nav ul li a {
+  text-decoration: none; /* Removes underline from links */
+  color: darkblue; /* Sets link color */
+  font-size: 1.5em; /* This controls the font size */
+  font-weight: bold; /* Make the font bold */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+nav ul.nav-links {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes padding */
+  display: flex; /* Flexbox to arrange items inline */
+  justify-content: center; /* Centers the links */
+}
+
+nav ul.nav-links li {
+  margin: 0 10px; /* Adds some spacing between the links */
+}
+
+nav ul.nav-links li a {
+  text-decoration: none; /* Removes underline from links */
+  color: #007bff; /* Sets link color */
+  font-size: 2em; /* Increase this value to make the font bigger */
+  font-weight: bold; /* Optional: Make the font bold */
+}
+
+nav ul.nav-links li a:hover {
+  text-decoration: underline; /* Adds underline on hover */
+}

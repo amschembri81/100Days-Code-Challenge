@@ -1,0 +1,158 @@
+/* Styling for the container that holds the ZIP code input and buttons */
+.zip-code-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Add spacing between input and button */
+    margin: 20px 0;
+  }
+  
+  .zip-code-container label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Input field for ZIP code */
+  .zipcode {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .zip-code-form h5 {
+    text-align: center; /* Center the text inside the label */
+    margin-bottom: 0;
+  }
+  
+  /* Button styling for "Fetch Weather" and "Add to Favorites" buttons */
+  .weatherbutton {
+    padding: 10px 20px;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 50px;
+  }
+  
+  .weatherbutton:hover {
+    background-color: purple; /* Darker green on hover */
+  }
+  
+  /* Button styling for "Add to Favorites" */
+  .button-favorite {
+    padding: 10px 20px;
+    background-color: darkblue; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 50px;
+  }
+  
+  .button-favorite:hover {
+    background-color: #1c86ee; /* Darker blue on hover */
+  }
+  
+  /* Align the Fetch and Add buttons next to each other */
+  .button-container {
+    display: flex;
+    gap: 10px; /* Add space between the buttons */
+    justify-content: center; /* Center buttons horizontally */
+  }
+  
+  /* Remove button styling */
+  .button-remove {
+    background-color: lightcoral; /* Light coral background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+  }
+  
+  .button-remove:hover {
+    background-color: #e57373; /* Darker coral on hover */
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Styling for the favorite ZIP code list */
+  .favorites-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .favorites-container ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+  }
+  
+  .favorites-container li {
+    margin: 5px 0; /* Add space between favorite ZIP codes */
+  }
+  
+  /* Explanation section styling */
+  .explanation {
+    margin: 15px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  /* Styling for the global counter container */
+  .counter-container {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for the counter box */
+  .counter-box {
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px auto; /* Auto margins for horizontal centering */
+    max-width: 400px;
+    width: 100%;
+    display: block;
+  }
+  
+  .counter-box h3 {
+    margin-bottom: 10px;
+  }
+  
+  .counter-box p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the input and button container */
+  .input-button-container {
+    display: flex;
+    align-items: center; /* Align input and button vertically */
+    gap: 10px; /* Space between input and button */
+  }
+  
+  /* Center-aligning the container */
+  .center-container {
+    display: flex;
+    justify-content: center; /* Center-aligns the container */
+    margin-top: 20px;
+  }

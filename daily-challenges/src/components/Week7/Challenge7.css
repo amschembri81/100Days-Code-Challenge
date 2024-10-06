@@ -1,0 +1,137 @@
+.context-container {
+    background-color: #ECFADC;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px; /* Limit the max-width for better centering */
+    text-align: center; /* Center the text inside the container */
+    margin: 20px auto; /* Center the container on the page */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  }
+
+/* Centering the zip code form and aligning it with the button */
+.zip-code-form {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Flexbox to align input and button in the same row */
+  .input-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; /* Space between input and button */
+  }
+  
+  /* Style for the zip code input */
+  .zipcode {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    flex-grow: 1;
+  }
+  
+  /* Style for the weather update button */
+  .weatherbutton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the weather button */
+  .weatherbutton:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for the error message */
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Container for the API data */
+  .api-data-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #c2e0fa;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Retry button styling */
+  .retry-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the retry button */
+  .retry-button:hover {
+    background-color: #45a049;
+  }
+  
+  .increment {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .increment:hover {
+    background-color: black;
+  }
+
+  .load-more-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(8, 80, 8);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .load-more-button:hover {
+    background-color: black;
+  }
+
+  /* Container for the list of countries */
+.country-list {
+  list-style-position: inside; /* Moves bullet points closer to the text */
+  text-align: center;          /* Center the country names */
+  padding: 0;
+}
+
+.country-list li {
+  margin: 10px 0;              /* Add some spacing between the list items */
+  font-size: 16px;
+}
+
+/* Style for the description */
+.description {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.no-bullets {
+  list-style-type: none; /* Removes bullet points */
+  padding-left: 0; /* Removes default padding */
+}

@@ -1,0 +1,120 @@
+/* Challenge10.css */
+
+/* General styles for the week container */
+.week-container {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Spaced heading for the challenges */
+  .spaced-heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Button styles */
+  .button,
+  .fetch-button,
+  .weatherbutton,
+  .toggle-button,
+  .snapshot-button {
+    background-color: #3498db; /* Primary button color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover,
+  .fetch-button:hover,
+  .weatherbutton:hover,
+  .toggle-button:hover,
+  .snapshot-button:hover {
+    background-color: #2980b9; /* Darker shade for hover */
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Specific styles for the high contrast mode */
+  .high-contrast {
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+  }
+  
+  .high-contrast .button,
+  .high-contrast .fetch-button,
+  .high-contrast .weatherbutton,
+  .high-contrast .toggle-button,
+  .high-contrast .snapshot-button {
+    background-color: #ffcc00; /* Yellow buttons in high contrast */
+  }
+  
+  /* Styles for the screen reader component */
+  .screen-reader {
+    position: absolute;
+    left: -9999px; /* Off-screen positioning for accessibility */
+  }
+  
+  /* Styles for the NASA Space Explorer section */
+  .space-explorer {
+    text-align: center;
+  }
+  
+  /* Styles for the quote generator */
+  .quote-generator {
+    text-align: center;
+  }
+  
+  /* Styles for the lifecycle demo */
+  .lifecycle {
+    text-align: center;
+  }
+  
+  /* Styles for the challenge info */
+  .challenge-info {
+    margin-top: 15px;
+  }
+  
+  /* Styles for the fact container in TypeScriptComponent */
+  .fact-container {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Styles for the log container */
+  .log-container {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .button,
+    .fetch-button,
+    .weatherbutton,
+    .toggle-button,
+    .snapshot-button {
+      width: 100%; /* Full width on smaller screens */
+    }
+  
+    .day-container,
+    .week-container {
+      padding: 10px;
+    }
+  }
+  
